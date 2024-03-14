@@ -1,4 +1,4 @@
-# Automatic Card Change React SPA (Single Page Application) with ASP.NET API
+# Automatic Card Change React SPA (Single Page Application) with ASP.NET RESTful API
 
 ## Description
 This project was made to simplify the process of changing your payment card details on multiple websites in the scenario that you receive a new card from your bank. The project is split into two parts: the React SPA and the ASP.NET API. The React SPA is a single page application that allows the user to input their new card details and select which websites they would like to update their card details on. The ASP.NET API is a RESTful API that handles the communication between the React SPA and the websites that the user would like to update their card details on. The API is responsible for sending the new card details to the websites and updating the user's card details on the websites.

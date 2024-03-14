@@ -1,0 +1,28 @@
+.grid-guide-row{
+    margin-top: 5rem !important;
+}
+
+.grid-guide-card{
+    border-color: transparent !important;
+    border-width: 0.2rem !important;
+    background-color: transparent !important;
+    min-height: 100%;
+    padding: -10px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.card-img-top{
+    width: 100px;
+    height: 180px;
+}
+
+.grid-guide-button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 30%;
+    background-color: #1B4965 !important;
+    border-color: #1B4965 !important;
+    color: #f0ffff !important;
+    font-weight: 500 !important;
+}

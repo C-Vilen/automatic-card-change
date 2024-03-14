@@ -1,12 +1,17 @@
 import { Fragment } from "react/jsx-runtime";
-import TestAppComponent from "../components/TestAppComponent";
+import HeaderImage from "../components/HeaderImage/HeaderImage"
+import GridGuide from "../components/GridGuide/GridGuide";
 
-export default function Home() {
+
+function Home() {
     return(
         <Fragment>
             <main className="content">
-                <TestAppComponent />
+                <HeaderImage />
+                <GridGuide />
             </main>
         </Fragment>
     );
 }
+
+export default Home;

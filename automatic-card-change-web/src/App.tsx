@@ -1,16 +1,18 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
+import Navbar from './components/CustomNavbar/CustomNavbar'
 
 
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
-        <Route path="/">
-          <Route index element={<Home />}/>
-        </Route>
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
 }
+
+export default App;

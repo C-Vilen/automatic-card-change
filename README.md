@@ -8,11 +8,13 @@ This project was made to simplify the process of changing your payment card deta
 - npm v10.5.0
 - .NET Core v8.0
 - create-react-app v5.0.1 (React v18.2.0)
+- react-bootstrap v2.101
+- react-router-dom v6.22.3
 
 ## How to run the web application locally
 1. Clone the repository
-2. Change directory to the `automatic-card-change-web` folder
-3. Run 'npm start' to start the React SPA
+2. Change the directory in the terminal to `automatic-card-change-web` folder with `cd automatic-card-change-web`
+3. Run `npm start` in the terminal to start the React SPA
 
 
 ## How to run the API locally

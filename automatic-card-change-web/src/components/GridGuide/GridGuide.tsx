@@ -53,7 +53,7 @@ function GridGuide() {
                    </Col> 
                 </Row>
                 <div className="text-center">
-                    <Button className="grid-guide-button" href="#">Get started now!</Button>
+                    <Button className="grid-guide-button" href="./Login">Get started now!</Button>
                 </div>
             </Container>
         </Fragment>

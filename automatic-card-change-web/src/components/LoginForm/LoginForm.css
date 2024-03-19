@@ -1,0 +1,29 @@
+.form-section {
+    margin-top: 2rem;
+    text-align: -webkit-center;
+}
+
+.login-section{
+    max-width: 380px;
+    border-color: #1B4965;
+    border-style: solid;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.login-logo{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.login-btn{
+    margin-top: 1rem;
+    background-color: #f0ffff;
+    width: 100%;
+    background-color: #1B4965 !important;
+    border-color: #1B4965 !important;
+    color: #f0ffff !important;
+    font-weight: 500 !important;
+}
